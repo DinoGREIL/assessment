@@ -22,29 +22,12 @@ function Pages(props) {
     }
 
     return (
-        <div>
-        
-            
-            <button onClick={firstPage}>
-                &lt;&lt;
-            </button>
-            
-            
-            <button onClick={prevPage}>
-                &lt;
-            </button>
-            
+        <div class="centerpage">
+            <button onClick={firstPage}>&lt;&lt;</button>
+            <button onClick={prevPage}>&lt;</button>
             Page {currentPage} out of {nbPages}
-            <button onClick={nextPage}>
-                &gt;
-            </button>
-            
-           
-            <button onClick={lastPage}>
-                &gt;&gt;
-            </button>
-           
-       
+            <button onClick={nextPage}>&gt;</button>
+            <button onClick={lastPage}>&gt;&gt;</button>
         </div>
     );
 }

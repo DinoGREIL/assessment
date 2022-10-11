@@ -6,7 +6,7 @@ function Filter(props) {
 
     return (
         //the value of category change as the user type
-        <label>
+        <label class="centercat">
             Category:&nbsp;
             <input type="text" value={category} 
             onChange={(event) => {

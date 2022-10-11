@@ -21,7 +21,7 @@ function App() {
       });},[])
   
   return (
-    <div>
+    <div class="center">
       <Filter category={category} setCategory={setCategory} setCurrentPage={setCurrentPage}/>
       <RealList ListtoSee={ListtoSee} category={category}  currentPage={currentPage} 
       setCurrentPage={setCurrentPage} FirstPost={FirstPost} LastPost={LastPost} PostPerPage={PostPerPage}  />

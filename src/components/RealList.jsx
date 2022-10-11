@@ -54,7 +54,7 @@ function RealList(props){
         <Pages currentPage={currentPage} setCurrentPage={setCurrentPage} nbPages={nbPages}/>
         <ul>
       {Listtoshow.map((post) => (
-        <li key={post.id}>
+        <li key={post.id} class="post">
             <img src={post.author.avatar} alt="avatar picture"/> 
             <strong>{post.title}</strong> by user <em>{post.author.name}</em> at <em>{post.publishDate}</em> :
             <br/>
